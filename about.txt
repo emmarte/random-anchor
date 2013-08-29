@@ -1,0 +1,5 @@
+Theme name:    Random
+Description:   Stupid stuff I like
+Author name:   Emma
+Author site:   http://nalua.net
+License:       MIT
