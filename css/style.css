@@ -1,0 +1,333 @@
+/*
+CSS file for
+random stuff
+*****************************/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Bitter', serif;
+	font-size: 100%;
+	color: #595959;
+}
+
+#layout{
+	width: 80%;
+	margin: 80px auto 0 0;
+}
+
+#header{
+	position: fixed;
+	float: left;
+	width: 300px;
+}
+
+#content {
+	width: 700px;
+	float: right;
+	padding-bottom: 50px;
+}
+
+a{
+	outline: none;
+}
+
+a:link, a:active, a:visited{
+	text-decoration: none;
+	color: #4BC2D3;
+}
+
+a:hover{
+	border-bottom: 2px solid #4BC2D3;
+}
+
+
+
+
+
+/* The sidebar
+*****************************/
+
+
+#rss:hover path {
+    fill: #4BC2D3;
+}
+
+
+#rss{
+position: absolute;
+right: -35px;
+top: -45px;
+}
+
+
+
+
+nav ul{
+	list-style-type: none;
+	margin: 20px 0 0 40px;
+}
+
+nav ul li{
+text-transform: uppercase;
+font-size: 0.9em;
+list-style-position: outside;
+}
+
+nav a:link, nav a:active, nav a:visited{
+text-decoration: none;
+color: #595959;
+}
+nav ul li a:hover{
+text-decoration: none;
+border: 0;
+color: #4BC2D3;
+}
+
+h1{
+	text-align: center;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+h1 a:link, h1 a:active, h1 a:visited{
+	color: #595959;
+}
+
+h1 a:hover{
+	color: #4BC2D3;
+	border: 0;
+}
+h2{
+font-weight: lighter;
+color: #DEDDDD;
+font-size: 1.8em;
+text-decoration: none;
+
+}
+
+header h3{
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+.latest-item h3{
+	font-size: 1.5em;
+}
+
+h3 a:link, h3 a:active, h3 a:visited{
+
+font-weight: normal;
+letter-spacing: 110%;
+
+}
+h3 a:hover{
+color: #666;
+border: 0;
+}
+
+p{	
+	margin-top: 10px;
+	line-height: 1.6em;
+}
+
+.latest-item{
+	margin-top: 50px;
+	font-size: 2.5em;
+	padding: 35px 60px 30px 120px ;
+}
+
+.latest-item a{
+	color: #4BC2D3;
+}
+
+.latest-item p{
+	margin-top: 0px;
+}
+.quote{
+	background-image: url("http://random.nalua.net/themes/random/img/quote.svg");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+
+.video{
+	background-image: url("http://random.nalua.net/themes/random/img/video.svg");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.gif{
+	background-image: url("http://random.nalua.net/themes/random/img/gif.svg");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.video h3, .gif h3{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.video p{
+	margin-left: 5px;
+}
+
+
+.item{
+	margin: 10px 40px;
+	padding: 20px 10px;
+}
+
+.item a:link, .item a:active, .item a:visited{
+	color: #595959;
+}
+
+.item a:hover{
+	color: #777;
+}
+
+.item:nth-child(even){
+	background: #F5F5F5;
+}
+
+
+.date, .cat{
+margin-bottom: 20px;
+font-size:0.80em;
+color: #858383;
+}
+
+.cat{
+	font-size: 0.6em;
+	font-weight: normal;
+	
+}
+
+article{
+	margin-bottom: 80px;
+}
+
+img{
+	padding: 10px;
+	border: 0;
+	background: transparent;
+	margin: 5px auto;
+	display: block;
+}
+
+.item, .cita{
+	margin: 10px 40px;
+	padding: 20px 10px;
+}
+
+.item a:link, .item a:active, .item a:visited{
+	color: #595959;
+}
+
+.item a:hover{
+	color: #777;
+}
+
+.item:nth-child(even){
+	background: #F5F5F5;
+}
+
+
+
+
+
+
+
+
+
+.cita{
+font-size: 1.1em;
+	margin-top:20px;
+	padding: 10px;
+	
+}
+
+
+
+
+.cita:nth-child(even){
+	background: #F5F5F5;
+}
+
+
+.author{
+	padding-top: 10px;
+	padding-left: 50px;
+}
+
+.navigation{
+	visibility: hidden;
+}
+
+.citas_header{
+	visibility: hidden;
+}
+
+.pagination a:link, .pagination a:active, .pagination a:visited{
+	padding-right: 40px;
+}
+
+
+.pagination a:hover{
+color: #ddd;
+border: 0;
+}
+/*
+Back to top button
+*****************************************/
+#back-top {
+	position: fixed;
+	bottom: 30px;
+	right: 150px;
+}
+#back-top a {
+	width: 108px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #000;
+	border: 0;
+
+}
+
+#back-top span {
+	width: 108px;
+	height: 108px;
+	display: block;
+	margin-bottom: 7px;
+	background: #ddd url("http://random.nalua.net/themes/random/img/up-arrow.png") no-repeat center center;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover span {
+	background-color: #777;
+}
+
+
+/* Font icons */
+.screen-reader-text { /* Reusable, toolbox kind of class */
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
