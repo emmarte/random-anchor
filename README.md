@@ -15,3 +15,9 @@ Other resources used:
 * [Web Designer Wall - Animated Scroll to Top](http://webdesignerwall.com/tutorials/animated-scroll-to-top).
 
 * [Metrize SVG icons](http://alessioatzeni.com/metrize-icons/) with modifications.
+
+##To do
+
+* Mainly make it responsive.
+
+
