@@ -1,10 +1,15 @@
- <?php theme_include('header'); ?>
+<?php theme_include('header'); ?>
 <?php if(has_posts()): ?>
 <!-- We have posts, it's safe to loop. -->
 <?php while(posts()): ?>
 <article>
 <h3><a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a></h3>
-<p class="date"><?php echo relative_time(article_time()); ?></p>
+<p class="date"><?php echo relative_time(article_time()); ?>
+
+<?php if(user_authed()): ?>
+&rarr; <a href="<?php echo base_url('admin/posts/edit/' . article_id()); ?>">Edit</a>
+<?php endif; ?>
+</p>
 <?php echo article_markdown(); ?>
 </article>
 <?php endwhile; ?>
