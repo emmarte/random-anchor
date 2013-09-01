@@ -1,5 +1,5 @@
 Theme name:    Random
-Description:   Stupid stuff I like
-Author name:   Emma
-Author site:   http://nalua.net
+Description:   Minimal and mine.
+Author name:   Emma Pérez
+Author site:   http://emmarte.com
 License:       MIT
