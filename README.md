@@ -1,7 +1,7 @@
 ##About Random
 
 My minimal and very personal theme for [Anchor CMS](http://anchorcms.com).
-You can see a working demo at [http://emmita.github.io/random-anchor](http://emmita.github.io/random-anchor)
+You can see a working demo at [http://emmarte.github.io/random-anchor](http://emmarte.github.io/random-anchor)
 
 ##Colophon
 
